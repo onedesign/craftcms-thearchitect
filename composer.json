@@ -1,6 +1,7 @@
 {
   "name": "pennebaker/craftcms-thearchitect",
   "description": "CraftCMS plugin to generate content models from JSON data.",
+  "homepage": "https://github.com/Pennebaker/craftcms-thearchitect",
   "require": {
     "composer/installers": "^1.2"
   },
@@ -12,6 +13,5 @@
       "name": "pennebaker",
       "email": "info@pennebaker.com"
     }
-  ],
-  "minimum-stability": "dev"
+  ]
 }

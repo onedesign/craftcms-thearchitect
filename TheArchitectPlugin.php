@@ -94,6 +94,8 @@ class TheArchitectPlugin extends BasePlugin
 
     public function init()
     {
+        require_once __DIR__ . '/vendor/autoload.php';
+
         $jsonPath = craft()->path->getConfigPath() . 'thearchitect/';
         if (!file_exists($jsonPath)) {
             mkdir($jsonPath);
